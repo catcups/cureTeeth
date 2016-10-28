@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  CureTeeth
+//
+//  Created by Denny on 16/7/14.
+//  Copyright © 2016年 Denny. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIImageView+WebCache.h"
+#import "BaseNavViewController.h"
+#import "BaseViewController.h"
+#import "CustomPickerView.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "CommonTool.h"
+#define Kmobile @"Kmobile"
+#define KDoctorId @"KDoctorId"
+#define Kpassworld @"Kpassworld"
+#import "StringUtils.h"
+#define BaseUrl @"http://www.eeboo.cn/"
+#import "UIColor+Hex.h"
+#import "AppDelegate.h"
+#import "NodataView.h"
+#define KGrayColor [UIColor colorWithHexRGB:@"#e2e4e7"]
+#define KMainColor [UIColor colorWithHexRGB:@"#4ab1a8"]
+#define KKeepLogin @"KKeepLogin"
+#import "LGCalendar.h"
+#import <MJRefresh/MJRefresh.h>
+#define KRELOADMAINVIEW @"KRELOADMAINVIEW"
+#define KDoctorHeaderImage @"KDoctorHeaderImage"
+#define kTHEAPP  ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+#define IS_IPHONE_5 (([[UIScreen mainScreen] bounds].size.height == 568) ? YES : NO)
+#define IS_IPHONE_4 (([[UIScreen mainScreen] bounds].size.height == 480) ? YES : NO)
+#endif /* PrefixHeader_pch */

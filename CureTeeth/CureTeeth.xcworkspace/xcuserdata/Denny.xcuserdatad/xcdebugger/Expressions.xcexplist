@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MessageChindOneViewController tableView:didSelectRowAtIndexPath:]:MessageChindOneViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AskListViewController pushMenuItem1:]:AskListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = " self.string1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__33-[ChatViewController viewDidLoad]_block_invoke:ChatViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__32-[DPostRequest request:failure:]_block_invoke_2:DPostRequest.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ChatViewController btn1Aciton]:ChatViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.type">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageResultViewController viewDidLoad]:MessageResultViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.messageId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__32-[DPostRequest request:failure:]_block_invoke.49:DPostRequest.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ForgetPasswordViewController viewDidLayoutSubviews]:ForgetPasswordViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.codeText.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainViewController viewDidLayoutSubviews]:MainViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReserveViewController setPickerDoneCallback:PickerView:]:ReserveViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dataDic">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReseverLIstReq processResponse:]:ReseverLIstReq.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MainViewController viewDidAppear:]:MainViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "CGRectGetWidth(self.view.frame)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageModel initWithDic:]:MessageModel.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SchMangerTableViewCell setModel:]:SchMangerTableViewCell.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ReserveViewController getdataSourceWithClinicName:]:ReserveViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MainViewController bindData:]:MainViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.headImage.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReserveViewController ReserveListTableViewCellDelegateRightButton:model:]:ReserveViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ForgetPasswordViewController viewDidLoad]:ForgetPasswordViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.codeText.frame">
+            </PersistentString>
+            <PersistentString
+               value = "CGRectGetMaxX(self.codeText.frame)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

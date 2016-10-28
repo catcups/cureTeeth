@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyInfoViewController">
+            <connections>
+                <outlet property="logoutButton" destination="ZLC-wO-9NC" id="LFB-OS-8bm"/>
+                <outlet property="tableview" destination="QTW-fj-gC8" id="6hq-GF-A6U"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QTW-fj-gC8">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="240"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="240" id="uys-uC-arR"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="JeE-SQ-MDs"/>
+                        <outlet property="delegate" destination="-1" id="R2U-D7-gMk"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLC-wO-9NC">
+                    <rect key="frame" x="10" y="300" width="580" height="40"/>
+                    <color key="backgroundColor" red="0.18823529410000001" green="0.58039215690000001" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="xLw-9W-EOD"/>
+                    </constraints>
+                    <state key="normal" title="退出登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onLoutOut:" destination="-1" eventType="touchUpInside" id="e2F-Vm-BwE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ZLC-wO-9NC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="DYN-zX-Cwt"/>
+                <constraint firstItem="ZLC-wO-9NC" firstAttribute="top" secondItem="QTW-fj-gC8" secondAttribute="bottom" constant="60" id="Wjd-b2-L3Z"/>
+                <constraint firstItem="QTW-fj-gC8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cCP-e8-3Kw"/>
+                <constraint firstAttribute="trailing" secondItem="ZLC-wO-9NC" secondAttribute="trailing" constant="10" id="m2F-Ej-H1x"/>
+                <constraint firstItem="QTW-fj-gC8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="r68-bd-OYS"/>
+                <constraint firstAttribute="trailing" secondItem="QTW-fj-gC8" secondAttribute="trailing" id="wCw-Tc-bgW"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
